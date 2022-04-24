@@ -8,7 +8,7 @@ n = 10
 
 # Steps
 h = (b-a) / n
-t = [round((step*h),2) for step in range(n)]
+t = [round((step*h),len(str(n))) for step in range(n)]
 
 # y' = f(t,y)
 def f(t,y):
