@@ -1,5 +1,5 @@
 # Example
-# ⁵√175=x -> x⁵ = 175-> x⁵-175 = 0 e portanto, f(x)= x⁵-175
+# ⁵√175=x -> x⁵ = 175-> x⁵-175 = 0 therefore, f(x)= x⁵-175
 
 def f(x):
   return (x**5)-175
